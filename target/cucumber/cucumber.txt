@@ -1,0 +1,60 @@
+
+@ViewStoresFeature @viewAllStores @ignore
+Scenario: Get All Stores                   [90m# src/test/resources/features/ViewStores.feature:6[0m
+  [32mGiven [0m[32mstore API is available[0m             [90m# stepDefinition.ViewStoreStepDefinition.store_api_is_available()[0m
+  [32mWhen [0m[32mI invoke stores api with get method[0m [90m# stepDefinition.ViewStoreStepDefinition.i_invoke_stores_api_with_get_method()[0m
+  [31mThen [0m[31mthe response code should be [0m[31m[1m200[0m     [90m# stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)[0m
+      [31morg.junit.ComparisonFailure: expected:<[403]> but was:<[200]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)
+	at ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:9)
+[0m
+
+@ViewStoresFeature @viewSingleStoreDetails @sanity @regression
+Scenario: Get A Single Store Details              [90m# src/test/resources/features/ViewStores.feature:12[0m
+  [32mGiven [0m[32mstore API is available[0m                    [90m# stepDefinition.ViewStoreStepDefinition.store_api_is_available()[0m
+  [32mWhen [0m[32mI invoke [0m[32m[1m"stores/{id}"[0m[32m api with get method[0m [90m# stepDefinition.ViewStoreStepDefinition.invokeSingleStoreApi(java.lang.String)[0m
+  [31mThen [0m[31mthe response code should be [0m[31m[1m200[0m            [90m# stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)[0m
+      [31morg.junit.ComparisonFailure: expected:<[403]> but was:<[200]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)
+	at ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:15)
+[0m
+
+@ViewStoresFeature
+Scenario Outline: Invoke the store API with limit [90m# src/test/resources/features/ViewStores.feature:24[0m
+  [32mGiven [0m[32mstore API is available[0m                    [90m# stepDefinition.ViewStoreStepDefinition.store_api_is_available()[0m
+  [32mWhen [0m[32mI invoke stores api with get method and [0m[32m[1m1[0m  [90m# stepDefinition.ViewStoreStepDefinition.i_invoke_stores_api_with_get_method(int)[0m
+  [31mThen [0m[31mthe response code should be [0m[31m[1m200[0m            [90m# stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)[0m
+      [31morg.junit.ComparisonFailure: expected:<[403]> but was:<[200]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)
+	at ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:21)
+[0m
+
+@ViewStoresFeature
+Scenario Outline: Invoke the store API with limit [90m# src/test/resources/features/ViewStores.feature:25[0m
+  [32mGiven [0m[32mstore API is available[0m                    [90m# stepDefinition.ViewStoreStepDefinition.store_api_is_available()[0m
+  [32mWhen [0m[32mI invoke stores api with get method and [0m[32m[1m4[0m  [90m# stepDefinition.ViewStoreStepDefinition.i_invoke_stores_api_with_get_method(int)[0m
+  [31mThen [0m[31mthe response code should be [0m[31m[1m200[0m            [90m# stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)[0m
+      [31morg.junit.ComparisonFailure: expected:<[403]> but was:<[200]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)
+	at ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:21)
+[0m
+
+@ViewStoresFeature
+Scenario Outline: Invoke the store API with limit [90m# src/test/resources/features/ViewStores.feature:26[0m
+  [32mGiven [0m[32mstore API is available[0m                    [90m# stepDefinition.ViewStoreStepDefinition.store_api_is_available()[0m
+  [32mWhen [0m[32mI invoke stores api with get method and [0m[32m[1m10[0m [90m# stepDefinition.ViewStoreStepDefinition.i_invoke_stores_api_with_get_method(int)[0m
+  [31mThen [0m[31mthe response code should be [0m[31m[1m200[0m            [90m# stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)[0m
+      [31morg.junit.ComparisonFailure: expected:<[403]> but was:<[200]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)
+	at ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:21)
+[0m

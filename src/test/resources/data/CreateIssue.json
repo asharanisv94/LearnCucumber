@@ -1,0 +1,27 @@
+    {
+    "fields": {
+        "summary": "Main order flow broken 2",
+        "project":
+        {
+        "id": "10002"
+        },
+        
+        "description":{"type": "doc",
+        "version": 1,
+        "content": [
+            {
+            "type": "paragraph",
+            "content": [
+                {
+                "text": "Order entry fails when selecting supplier.",
+                "type": "text"
+                }
+            ]
+            }
+        ]}
+        ,
+        "issuetype": {
+        "id": "10009"
+        }
+    }
+    }

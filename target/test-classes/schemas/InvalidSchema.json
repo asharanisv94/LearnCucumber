@@ -1,0 +1,429 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "expand": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "self": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "key": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "extraElement":{
+				"type":"string"
+			},
+            "avatarUrls": {
+              "type": "object",
+              "properties": {
+                "48x48": {
+                  "type": "string"
+                },
+                "24x24": {
+                  "type": "string"
+                },
+                "16x16": {
+                  "type": "string"
+                },
+                "32x32": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "48x48",
+                "24x24",
+                "16x16",
+                "32x32"
+              ]
+            },
+            "issuetypes": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "self": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "iconUrl": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "untranslatedName": {
+                      "type": "string"
+                    },
+                    "subtask": {
+                      "type": "boolean"
+                    },
+                    "scope": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "project": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "project"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "self",
+                    "id",
+                    "description",
+                    "iconUrl",
+                    "name",
+                    "untranslatedName",
+                    "subtask",
+                    "scope"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "self": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "iconUrl": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "untranslatedName": {
+                      "type": "string"
+                    },
+                    "subtask": {
+                      "type": "boolean"
+                    },
+                    "scope": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "project": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "project"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "self",
+                    "id",
+                    "description",
+                    "iconUrl",
+                    "name",
+                    "untranslatedName",
+                    "subtask",
+                    "scope"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "self": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "iconUrl": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "untranslatedName": {
+                      "type": "string"
+                    },
+                    "subtask": {
+                      "type": "boolean"
+                    },
+                    "scope": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "project": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "project"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "self",
+                    "id",
+                    "description",
+                    "iconUrl",
+                    "name",
+                    "untranslatedName",
+                    "subtask",
+                    "scope"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "self": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "iconUrl": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "untranslatedName": {
+                      "type": "string"
+                    },
+                    "subtask": {
+                      "type": "boolean"
+                    },
+                    "scope": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "project": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "project"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "self",
+                    "id",
+                    "description",
+                    "iconUrl",
+                    "name",
+                    "untranslatedName",
+                    "subtask",
+                    "scope"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "self": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "iconUrl": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "untranslatedName": {
+                      "type": "string"
+                    },
+                    "subtask": {
+                      "type": "boolean"
+                    },
+                    "scope": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "project": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "project"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "self",
+                    "id",
+                    "description",
+                    "iconUrl",
+                    "name",
+                    "untranslatedName",
+                    "subtask",
+                    "scope"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "self": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "iconUrl": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "untranslatedName": {
+                      "type": "string"
+                    },
+                    "subtask": {
+                      "type": "boolean"
+                    },
+                    "scope": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "project": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "project"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "self",
+                    "id",
+                    "description",
+                    "iconUrl",
+                    "name",
+                    "untranslatedName",
+                    "subtask",
+                    "scope"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "self",
+            "id",
+            "key",
+            "name",
+            "extraElement",
+            "avatarUrls",
+            "issuetypes"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "expand",
+    "projects"
+  ]
+}

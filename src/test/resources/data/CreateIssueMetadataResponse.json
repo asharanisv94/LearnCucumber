@@ -1,0 +1,182 @@
+{"expand": "projects",
+    "projects": [
+        {
+            "self": "https://asharanisv.atlassian.net/rest/api/3/project/10000",
+            "id": "10000",
+            "key": "AUT",
+            "name": "AutomationFramework",
+            "avatarUrls": {
+                "48x48": "https://asharanisv.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10407",
+                "24x24": "https://asharanisv.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10407?size=small",
+                "16x16": "https://asharanisv.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10407?size=xsmall",
+                "32x32": "https://asharanisv.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10407?size=medium"
+            },
+            "issuetypes": [
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10001",
+                    "id": "10001",
+                    "description": "Stories track functionality or features expressed as user goals.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                    "name": "Story",
+                    "untranslatedName": "Story",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10002",
+                    "id": "10002",
+                    "description": "Tasks track small, distinct pieces of work.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "untranslatedName": "Task",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10003",
+                    "id": "10003",
+                    "description": "Bugs track problems or errors.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "name": "Bug",
+                    "untranslatedName": "Bug",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10004",
+                    "id": "10004",
+                    "description": "Epics track collections of related bugs, stories, and tasks.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                    "name": "Epic",
+                    "untranslatedName": "Epic",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10005",
+                    "id": "10005",
+                    "description": "Subtasks track small pieces of work that are part of a larger task.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                    "name": "Subtask",
+                    "untranslatedName": "Subtask",
+                    "subtask": true,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "self": "https://asharanisv.atlassian.net/rest/api/3/project/10001",
+            "id": "10001",
+            "key": "TEST",
+            "name": "Test",
+            "avatarUrls": {
+                "48x48": "https://asharanisv.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10421",
+                "24x24": "https://asharanisv.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10421?size=small",
+                "16x16": "https://asharanisv.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10421?size=xsmall",
+                "32x32": "https://asharanisv.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10421?size=medium"
+            },
+            "issuetypes": [
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10006",
+                    "id": "10006",
+                    "description": "Stories track functionality or features expressed as user goals.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                    "name": "Story",
+                    "untranslatedName": "Story",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10001"
+                        }
+                    }
+                },
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10007",
+                    "id": "10007",
+                    "description": "Tasks track small, distinct pieces of work.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "untranslatedName": "Task",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10001"
+                        }
+                    }
+                },
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10008",
+                    "id": "10008",
+                    "description": "Bugs track problems or errors.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "name": "Bug",
+                    "untranslatedName": "Bug",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10001"
+                        }
+                    }
+                },
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10010",
+                    "id": "10010",
+                    "description": "Epics track collections of related bugs, stories, and tasks.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                    "name": "Epic",
+                    "untranslatedName": "Epic",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10001"
+                        }
+                    }
+                },
+                {
+                    "self": "https://asharanisv.atlassian.net/rest/api/3/issuetype/10011",
+                    "id": "10011",
+                    "description": "Subtasks track small pieces of work that are part of a larger task.",
+                    "iconUrl": "https://asharanisv.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                    "name": "Subtask",
+                    "untranslatedName": "Subtask",
+                    "subtask": true,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10001"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

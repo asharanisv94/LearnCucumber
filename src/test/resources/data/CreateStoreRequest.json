@@ -1,0 +1,12 @@
+{      
+	  "name": "walmart",
+      "type": "BigBox",
+      "address": "123 Bovaird drive",
+      "address2": "",
+      "city": "Brampton",
+      "state": "MN",
+      "zip": "L6V 3CZ",
+      "lat": 44.969658,
+      "lng": -93.449539,
+      "hours": "Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8"
+}

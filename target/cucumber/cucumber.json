@@ -1,0 +1,465 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-14T18:13:52.253Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1993700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Get All Stores",
+        "description": "",
+        "id": "view-stores;get-all-stores",
+        "after": [
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "store API is available",
+            "match": {
+              "location": "stepDefinition.ViewStoreStepDefinition.store_api_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1042212800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I invoke stores api with get method",
+            "match": {
+              "location": "stepDefinition.ViewStoreStepDefinition.i_invoke_stores_api_with_get_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[403]\u003e but was:\u003c[200]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)\r\n\tat ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:9)\r\n",
+              "duration": 22938100,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ViewStoresFeature"
+          },
+          {
+            "name": "@viewAllStores"
+          },
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-14T18:13:53.426Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.callMethodBeforeSingleStoreAPI()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Get A Single Store Details",
+        "description": "",
+        "id": "view-stores;get-a-single-store-details",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "store API is available",
+            "match": {
+              "location": "stepDefinition.ViewStoreStepDefinition.store_api_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30917600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I invoke \"stores/{id}\" api with get method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"stores/{id}\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinition.ViewStoreStepDefinition.invokeSingleStoreApi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[403]\u003e but was:\u003c[200]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)\r\n\tat ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:15)\r\n",
+              "duration": 997300,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ViewStoresFeature"
+          },
+          {
+            "name": "@viewSingleStoreDetails"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-14T18:13:53.470Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Invoke the store API with limit",
+        "description": "",
+        "id": "view-stores;invoke-the-store-api-with-limit;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "store API is available",
+            "match": {
+              "location": "stepDefinition.ViewStoreStepDefinition.store_api_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30918100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I invoke stores api with get method and 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinition.ViewStoreStepDefinition.i_invoke_stores_api_with_get_method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[403]\u003e but was:\u003c[200]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)\r\n\tat ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:21)\r\n",
+              "duration": 997500,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ViewStoresFeature"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-14T18:13:53.517Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Invoke the store API with limit",
+        "description": "",
+        "id": "view-stores;invoke-the-store-api-with-limit;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "store API is available",
+            "match": {
+              "location": "stepDefinition.ViewStoreStepDefinition.store_api_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16954600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I invoke stores api with get method and 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinition.ViewStoreStepDefinition.i_invoke_stores_api_with_get_method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[403]\u003e but was:\u003c[200]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)\r\n\tat ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:21)\r\n",
+              "duration": 997000,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ViewStoresFeature"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-14T18:13:53.545Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Invoke the store API with limit",
+        "description": "",
+        "id": "view-stores;invoke-the-store-api-with-limit;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "store API is available",
+            "match": {
+              "location": "stepDefinition.ViewStoreStepDefinition.store_api_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12965500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I invoke stores api with get method and 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinition.ViewStoreStepDefinition.i_invoke_stores_api_with_get_method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[403]\u003e but was:\u003c[200]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(ViewStoreStepDefinition.java:42)\r\n\tat ✽.the response code should be 200(file:///C:/Users/asha/eclipse-workspace/LearnCucumberFramework/src/test/resources/features/ViewStores.feature:21)\r\n",
+              "duration": 997100,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.ViewStoreStepDefinition.the_response_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ViewStoresFeature"
+          }
+        ]
+      }
+    ],
+    "name": "View Stores",
+    "description": "  As a user I should be able to view the different stores",
+    "id": "view-stores",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ViewStores.feature",
+    "tags": [
+      {
+        "name": "@ViewStoresFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
