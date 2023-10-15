@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		},
 		features="src/test/resources/features", 
 glue ={"stepDefinition"},
-tags= "@CreateIssue"
+tags= "@spotify"
 )
 public class TestRunner {
 
